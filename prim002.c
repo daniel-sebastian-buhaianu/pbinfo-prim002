@@ -2,8 +2,9 @@
 
 int main()
 {
-	unsigned n, d = 2, p, cmmdp = 1;
-	scanf("%u", &n);
+	unsigned long long n, d = 2, p, cmmdp = 1;
+
+	scanf("%llu", &n);
 
 	while (d*d <= n) {
 		p = 0;
@@ -17,9 +18,9 @@ int main()
 
 	if (n > 1) cmmdp = n;
 
-	printf("%u", cmmdp);
+	printf("%llu", cmmdp);
 
 	return 0;
 }
 
-// scor 50
+// scor 100
